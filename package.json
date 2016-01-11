@@ -10,7 +10,8 @@
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "utils.js"
   ],
   "main": "index.js",
   "engines": {
@@ -19,7 +20,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "request": "^2.67.0"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"

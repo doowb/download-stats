@@ -6,7 +6,12 @@
  */
 
 'use strict';
+var calc = require('./lib/calculate');
+var utils = require('./lib/utils');
+var get = require('./lib/get');
+var stats = {};
 
-module.exports = function () {
-  // do stuff
-};
+stats.get = get;
+stats.calc = calc;
+
+module.exports = stats;
