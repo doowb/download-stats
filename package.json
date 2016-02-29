@@ -26,8 +26,26 @@
     "request": "^2.67.0"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.7",
     "mocha": "*",
     "should": "*"
   },
-  "keywords": []
+  "keywords": [],
+  "verb": {
+    "toc": true,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        {
+          "npm-info": true
+        }
+      ]
+    }
+  }
 }
