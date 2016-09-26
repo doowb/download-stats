@@ -21,15 +21,14 @@
     "test": "mocha"
   },
   "dependencies": {
-    "JSONStream": "^1.0.7",
-    "lazy-cache": "^1.0.3",
-    "moment": "^2.11.2",
-    "request": "^2.67.0"
+    "JSONStream": "^1.2.1",
+    "lazy-cache": "^2.0.1",
+    "moment": "^2.15.1",
+    "request": "^2.75.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.7",
-    "mocha": "*",
-    "should": "*"
+    "gulp-format-md": "^0.1.10",
+    "mocha": "^3.0.2"
   },
   "keywords": [],
   "verb": {
