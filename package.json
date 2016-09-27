@@ -11,7 +11,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "lib/"
+    "lib"
   ],
   "main": "index.js",
   "engines": {
@@ -29,7 +29,16 @@
     "gulp-format-md": "^0.1.10",
     "mocha": "^3.0.2"
   },
-  "keywords": [],
+  "keywords": [
+    "calculate",
+    "calculate-downloads",
+    "download",
+    "download-stats",
+    "downloads",
+    "get",
+    "get-downloads",
+    "stats"
+  ],
   "verb": {
     "toc": true,
     "layout": "default",
@@ -45,6 +54,10 @@
           "npm-info": true
         }
       ]
-    }
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
