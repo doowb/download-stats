@@ -23,8 +23,7 @@
   "dependencies": {
     "JSONStream": "^1.2.1",
     "lazy-cache": "^2.0.1",
-    "moment": "^2.15.1",
-    "request": "^2.75.0"
+    "moment": "^2.15.1"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.10",
