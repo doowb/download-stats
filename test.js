@@ -11,7 +11,7 @@ describe('download-stats', function() {
 
     it('should get downloads', function(cb) {
       var downloads = [];
-      stats.get('1900-01-01', '3000-01-01', 'download-stats')
+      stats.get('2005-01-01', new Date(), 'download-stats')
         .on('data', function(data) {
           downloads.push(data);
         })
