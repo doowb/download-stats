@@ -107,7 +107,7 @@ Get a specific point (all-time, last-month, last-week, last-day)
 **Example**
 
 ```js
-stats.get.period('last-day', 'micromatch', function(err, results) {
+stats.get.point('last-day', 'micromatch', function(err, results) {
   if (err) return console.error(err);
   console.log(results);
 });
